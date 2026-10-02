@@ -1,0 +1,68 @@
+/* 1. Reset básico y tipografía */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9; /* Color 1: Fondo claro */
+    color: #333333;           /* Color 2: Texto principal */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* 2. Contenedores generales */
+header, nav, main, section, footer {
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* 3. Estilos para Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #0066cc; /* Color 3: Primario / Acento */
+    color: white;
+}
+
+/* 4. Estilos para Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #0066cc; /* Color 3: Primario */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #004b99;
+}
