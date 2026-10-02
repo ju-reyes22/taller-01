@@ -1,4 +1,4 @@
-/* 1. Reset básico y tipografía */
+/* Reset básico y tipografía */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     padding: 20px;
 }
 
-/* 2. Contenedores generales */
+/*  Contenedores generales */
 header, nav, main, section, footer {
     background-color: #ffffff;
     max-width: 900px;
@@ -22,7 +22,7 @@ header, nav, main, section, footer {
     border-radius: 8px;
 }
 
-/* 3. Estilos para Tablas */
+/*  Estilos para Tablas */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -40,7 +40,7 @@ th {
     color: white;
 }
 
-/* 4. Estilos para Formulario */
+/*  Estilos para Formulario */
 form {
     display: flex;
     flex-direction: column;
