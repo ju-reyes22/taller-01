@@ -66,3 +66,43 @@ button {
 button:hover {
     background-color: #004b99;
 }
+
+/* Estilos para el encabezado (Header) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #0056b3; /* Línea decorativa del color primario */
+}
+
+header h1 {
+    font-size: 1.5rem;
+    color: #0056b3;
+    margin: 0;
+}
+
+/* Estilos para el menú de navegación (Nav) */
+nav ul {
+    list-style: none; /* Quita los puntos negros de la lista */
+    display: flex;    /* Pone los enlaces uno al lado del otro */
+    gap: 20px;        /* Espacio entre cada opción */
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none; /* Quita la línea subrayada azul */
+    color: #333333;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efecto al pasar el cursor por encima */
+nav a:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
