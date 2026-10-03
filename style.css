@@ -172,3 +172,17 @@ nav a:hover {
   td:nth-of-type(4)::before { content: "Ciudad"; }
   td:nth-of-type(5)::before { content: "Salario"; }
 }
+.galeria {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+ 
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 120px;
+      background: #e0e0e0;
+      border: 1px solid #999;
+    }
